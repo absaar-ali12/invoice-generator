@@ -1,7 +1,8 @@
 import {React} from 'react'
 import '../App.css'
 import { Button, Grid, Card, Typography } from '@mui/material'
-import { createMuiTheme, ThemeProvider } from '@mui/material';
+import { createMuiTheme, ThemeProvider } from '@mui/material'
+import logo512 from '../public/logo512.png';
 
 const theme =  createMuiTheme({
     palette:{
@@ -38,11 +39,8 @@ const Home = () =>{
                       <main>
                         <div className='scroll-bg'>
                             <div className='scroll-div'>
-                                <div className='scroll-object'>
-                                {/* <div className='img'><img src={Stackfun} alt="per1" /></div>                                                                              
-                                <div className='img'><img src={Bstfun} alt="per1" /></div>                                                                              
-                                <div className='img'><img src={Arrarfun} alt="per1" /></div>                                                                            */}
-                                {/*<div><img className='funimg' src={Fun} alt="per1"  /></div>      */}                                                                                                                                          
+                                <div className='scroll-object'>                                                                          
+                                <div><img className='mainimg' src={logo512} alt="per1"  /></div>                                                                                                                                         
                                     
                                 </div>
                             </div>
